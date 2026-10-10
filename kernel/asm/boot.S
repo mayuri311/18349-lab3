@@ -67,7 +67,7 @@ ivt:
 .word   spin                /* 51 IRQ35 SPI1   */
 .word   spin                /* 52 IRQ36 SPI2   */
 .word   spin                /* 53 IRQ37 USART1 */
-.word   spin                /* 54 IRQ38 USART2 */
+.word   USART2_IRQHandler   /* 54 IRQ38 USART2 */
 .word   spin                /* 55 IRQ39 USART3   */
 .word   spin                /* 56 IRQ40 EXTI15_10   */
 .word   spin                /* 57 IRQ41 RTCAlarm */

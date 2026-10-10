@@ -21,4 +21,14 @@ int uart_write( int file, char *ptr, int len );
 
 int uart_read(int file, char *ptr, int len );
 
+
+void uart_flush(void);
+
+void USART2_TX_IRQHandler(void);
+
+void USART2_RX_IRQHandler(void);
+
+void USART2_IRQHandler(void);
+
+
 #endif /* _UART_H_ */
